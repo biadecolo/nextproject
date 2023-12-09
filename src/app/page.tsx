@@ -36,10 +36,6 @@ export default function Home() {
       <button className='bg-sky-900 px-5 rounded-md m-0 text-white' onClick={arredondarOuEnquadrar}>
         guaxinim redondor ou quadrador
       </button>
-      <button className='bg-sky-900 px-5 rounded-md m-0 text-white'  onClick={() => {
-        console.log('foto', foto);
-      }}>e isso</button>
-
     </main>
   )
 }
