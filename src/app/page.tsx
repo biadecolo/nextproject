@@ -25,13 +25,13 @@ export default function Home() {
   }
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center p-24">
       <Image className={`${rounded && 'rounded-full'}`}
         src={"/raccoon.gif"}
         width={500}
         height={500} alt={''}
       />
-      <button className='bg-zinc-200 px-5 rounded-md m-0' onClick={Namorando}>{textodoButao}</button>
+      <button className='bg-zinc-200 px-5 rounded-md m-6' onClick={Namorando}>{textodoButao}</button>
       <p className={`${namorando} text-red-500`} >agora voce esta me namorando</p>
       <button className='bg-sky-900 px-5 rounded-md m-0 text-white' onClick={arredondarOuEnquadrar}>
         guaxinim redondor ou quadrador
